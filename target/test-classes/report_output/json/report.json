@@ -1,0 +1,148 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Create a new user in utest",
+        "description": "",
+        "id": "utest;create-a-new-user-in-utest;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 501710400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StageDirector.endTheAct()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": ": Than John wants to register as a new user on utest",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": ": he fills out the registration forms",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "strFirstName",
+                  "",
+                  "strLastName",
+                  "",
+                  "strEmail",
+                  "",
+                  "strLanguage",
+                  "",
+                  "strCity",
+                  "",
+                  "strZipCode",
+                  "",
+                  "strPassword",
+                  "",
+                  "strMonthBirthday",
+                  "",
+                  "strDayBirthday",
+                  "",
+                  "strYearBirthday",
+                  "",
+                  "strOsComputer",
+                  "",
+                  "strOsVersion",
+                  "",
+                  "strOsLanguage",
+                  "",
+                  "strMobileDevice",
+                  "",
+                  "strModelMobile",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "John",
+                  "",
+                  "Doe",
+                  "",
+                  "JohnDoe@test.com",
+                  "",
+                  "English",
+                  "",
+                  "Ciudad de Panama",
+                  "",
+                  "0819",
+                  "",
+                  "HuCr$swiR_7et\u003dOb_1rI",
+                  "",
+                  "12",
+                  "",
+                  "04",
+                  "",
+                  "1996",
+                  "",
+                  "Windows",
+                  "",
+                  "Windows 10",
+                  "",
+                  "English",
+                  "",
+                  "Apple",
+                  "",
+                  "11 Pro max",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": ": he will have registered as a new user in utest",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stories"
+          },
+          {
+            "name": "@scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Utest",
+    "description": "  As a user, I want to create a user in utest, to test the knowledge learned in choucair academy",
+    "id": "utest",
+    "keyword": "Feature",
+    "uri": "C:/Users/deiby/IdeaProjects/co.com.choucair.certification.utest/src/test/resources/features/utest.feature",
+    "tags": [
+      {
+        "name": "@stories",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
